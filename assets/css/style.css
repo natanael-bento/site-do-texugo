@@ -67,18 +67,20 @@
     
 }.tamanhoform{
     font-size:20px;
-    width: 50px;
+    
     margin: 0%;
 }.fundo{
     background-color: #63024a;
-}.cor{
-   
-    font-size: 35px;
-    text-align: center;
+}.titulo{
+    border-radius: 50%;
+
     display: flex;
-    flex-flow: row;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    background: rgb(131, 13, 199);
+    width: 72%;
+    margin: 0 auto;
+    padding-right: 0%;
 }.tamanholetra{
     font-size: 23px;
     padding-left: 30px;
