@@ -5,39 +5,66 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contate-me</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
-<body>
-    <ul>
-        <li>
-          <a href="index.html">Home</a>   
-        </li>
-        
-        <li>
-          <a href="contato.html">Contato </a>  
-        </li>
+<body class="fundo">
+    <ul class="topo">
+      <li> <a href="index.html">Home</a> </li>
+      
+      <li> <a href="contato.html">Contato </a> </li>
+
+      <li>   <a href="ratel.html">Familia Ratel</a> </li>
+
+      <li> <a href="ratel.html">Outros animais irados</a> </li>
+
+      <li> <a href="ratel.html">Quiz</a> </li>
+ 
+
   
       </ul>
   
-    <h1> contato para falarmos sobre o ratel: </h1>
+    <h1 class="contato"> Entre em contato: </h1>
 
+    <div class="contato">
+
+      <div class="tamanhoform">
     <form>
        <label for="nome">Nome:</label> <br>
-       <input type="text" id = "nome">
-       <br>
+       <input type="text" id = "nome" onkeyup="validaNome()">
+       <div id ='txtNome'></div>
        <br>
        <label for="email">Email:</label> <br>
-       <input type="email" id = "email">
-       <br>
+       <input type="email" id = "email" onkeyup="validaEmail()">
+       <div id ='txtEmail'></div>
        <br>
        <label for="assunto">Assunto:</label> <br>
-       <textarea name="assunto" id="assunto" cols="70" rows="10"></textarea>
+       <textarea name="assunto" id="assunto" cols="60" rows="5" onkeyup="validaAssunto()"></textarea>
+       <div id ='txtAssunto'></div>
        <br>
        <br>
-
-       <button>Enviar</button>
+       <button onclick="enviar()">Enviar</button>
     </form>
+  </div>
 
-
-    
+  <div>
+    <img src="assets/ibagens/WhatsApp Image 2023-04-08 at 18.27.35.jpeg" 
+    width="500" alt=" texugo do mel usando um cachecol e uma varinha magica">
+  </div>
+    </div>
+    <hr>
+    <footer>
+      <div class="centro">
+        <a href="https://www.linkedin.com/in/natanael-da-silva-bento-dev/" target="_blank">
+           <img class="logos" src="assets/ibagens/linkedin.png" alt="logo do linkedin">
+        </a>
+        <a href="https://github.com/natanael-bento" target="_blank">  
+        <img class="logos" src="assets/ibagens/github.png" alt="logo do github">
+        </a>
+      </div>
+     <p class="cop">
+       Feito por: Natanael da Silva Bento &copy;
+     </p>
+    </footer>
+    <script src="assets/js/script.js"></script>
 </body>
 </html>
