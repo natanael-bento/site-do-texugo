@@ -11,7 +11,7 @@
 
 }.topo li a:hover{
     font-size: 25px;
-    color: rgb(251, 255, 0)
+    color: rgba(232, 213, 42, 0.897)
     
 }
 .img1{
@@ -36,7 +36,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: orangered;
     width: 95%;
     margin: 0 auto;
     padding-right: 0%;
@@ -46,7 +45,6 @@
     border-radius: 21px;
     justify-content: space-between;
     align-items: center;
-    background: #a51b1b;
     width: 95%;
     margin: 0 auto;  
 }.banner3{
@@ -54,7 +52,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: rgb(201, 0, 43);
     width: 95%;
     margin: 0 auto;  
 }.contato{
@@ -69,16 +66,19 @@
     font-size:20px;
     
     margin: 0%;
-}.fundo{
-    background-color: #63024a;
+}.fundo1{
+    background-image: linear-gradient(  #0eb7b1 ,#7a775b, #7c5294,  #cfbf80e4, #3d50ceeb);
+}.fundo2{
+    background-image: linear-gradient(  #0eb7b1 , #a9b791df,#6e9042, #71aa81, #3d50ceeb);
+}.fundo3{
+    background-image: linear-gradient( #14d6d0 , #db564a,#c8bc55f7, #7c5b93, #3d50ceeb);
 }.titulo{
-    border-radius: 50%;
-
+    border-radius: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: rgb(131, 13, 199);
-    width: 72%;
+    background-image: linear-gradient( #5290b4, #26b4af);
+    width: 40%;
     margin: 0 auto;
     padding-right: 0%;
 }.tamanholetra{
@@ -122,4 +122,5 @@
     justify-content: center;
     align-items: center;
 
- }
+}
+
